@@ -12,8 +12,7 @@ export default function Home() {
 
   return (
     <View className="flex-1  bg-[#1A1A1A]">
-      <View className="mt-16 px-5  text-[#E5E5E5]">
-        <Text className="text-3xl font-extralight text-[#E5E5E5]">My Feed</Text>
+      <View className="pb-10 px-5  ">
         <View className="flex-row pt-7 pb-5 items-center">
           <Image source={{uri: 'https://reactjs.org/logo-og.png'}}
                 style={{width: 40, height: 40}} className=" rounded-full"/>
