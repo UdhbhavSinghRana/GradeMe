@@ -5,13 +5,14 @@ import { Text, View, Image, Button, TouchableOpacity, StyleSheet, Pressable, } f
 function Header() {
   return (
     <View>
-      
-      <Text className="text-white mt-3 px-5">hello</Text>
-      <View className='bg-[#1A1A1A] mt-10 px-5'>
+      <View className="flex-row justify-between text-white mt-3 px-5 sticky">
+        <Image source={require('../assets/menu.png')} className='w-10 h-10'></Image>
+        <Image source={{uri: 'https://reactjs.org/logo-og.png'}} className='w-10 h-10 rounded-full'></Image>
+      </View>
+      <View className='bg-[#1A1A1A] mt-5 px-5'>
         <Text className="text-3xl font-extralight text-[#E5E5E5]">My Feed</Text>
       </View>
     </View>
-    
   )
 }
 

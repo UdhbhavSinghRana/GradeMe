@@ -13,11 +13,13 @@ export default function Home() {
   return (
     <View className="flex-1  bg-[#1A1A1A]">
       <View className="pb-10 px-5  ">
-        <View className="flex-row pt-7 pb-5 items-center">
-          <Image source={{uri: 'https://reactjs.org/logo-og.png'}}
-                style={{width: 40, height: 40}} className=" rounded-full"/>
-          <View className="flex-row gap-x-28">
+        <View className="flex-row pt-7 pb-5 items-center justify-between">
+          <View className="flex-row items-center">
+            <Image source={{uri: 'https://reactjs.org/logo-og.png'}}
+                  style={{width: 40, height: 40}} className=" rounded-full"/>
             <Text className="text-[#E5E5E5] px-2 ">Peter Griffin</Text>
+          </View>
+          <View className="flex-row ">
             <Text className="text-white font-extralight  text-xs">2 Mins ago</Text>
           </View>
         </View>
